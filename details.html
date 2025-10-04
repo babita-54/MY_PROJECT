@@ -1,0 +1,46 @@
+<!DOCTYPE=html>
+<html>
+<head>
+<title>add details</title>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="k.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+ 
+  <div id="form">
+ 
+<form action="i.php" method="post">
+Date<input type="Date" name="Date" required>
+<label for="name">Flightname</label>
+<select id="name" name="Flight" required>
+<option value="Indigo">Indigo</option>
+  <option value="Airindia">Airindia</option>
+  <option value="Spicejet">Spicejet</option>
+  <option value="Vistara">Vistara</option>
+
+</select>
+Flightno<input type="text" placeholder="no" name="Flightno" required>
+Gateno<input type="text" placeholder="gate" name="Gateno" required >
+Seatno<input type="text" placeholder="seat" name="Seatno" required>
+<label for="class">Class</label>
+<select id="class" name="Class" required>
+<option value="Economy">Economy</option>
+  <option value="Business">Business</option>
+  <option value="First">First</option>
+  </select>
+Boarding Time<input type="time" name="Boardingtime" required>
+Travelling Time<input type="time" name="Travellingtime" required>
+Arrival Time<input type="time" name="Arrivaltime" required>
+From<input type="text" placeholder="from" name="FRM" required>
+To<input type="text" placeholder="to" name="TI" required>
+Fare Price<input type="number" placeholder="Enter Fare Price" name="Price" required>
+<input type="submit" value="submit">
+</form>
+</div>
+
+</body>
+</html>
