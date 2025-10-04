@@ -1,0 +1,31 @@
+body
+{
+ background-image: url('tp.png');
+    background-size: cover;
+}
+table {
+  border-collapse: collapse;
+ margin:250px;
+  
+ 
+}
+table {
+  border: none;
+  color:none;
+}
+
+input[type=submit]{
+   background-color: #87CEEB;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+}
+
+input[type=submit]:hover{
+    background-color: dodgerblue;
+}

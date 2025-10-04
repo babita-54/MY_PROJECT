@@ -1,0 +1,32 @@
+body
+{
+  background-image: url("right.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color:#87CEEB;
+}
+
+table
+{
+  border-style:dotted;
+  margin:280px;
+  background-color:none;
+ 
+}
+
+th{
+   background-color:;
+   
+}
+
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+tr:hover {background-color: white;}
